@@ -22,14 +22,14 @@ class Player {
    //write a correct code to show lives as three green rectangles in a strainght line.
    textSize(20);
     fill("white");
-    text("Player", width - 1070, 40);
+    text("Player", 310, 40);
 
     fill(this.life1);
-    rect(width - 1100, 50, 70, 30);
+    rect(360, 50, 70, 30);
     fill(this.life2);
-    rect(width - 1170, 50, 70, 30);
+    rect(290, 50, 70, 30);
     fill(this.life3);
-    rect(width - 1030, 50, 70, 30);
+    rect(220, 50, 70, 30);
     pop();
   }
 

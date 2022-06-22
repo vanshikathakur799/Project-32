@@ -82,7 +82,7 @@ function draw() {
   computerBase.display();
   computer.display();
   computer.life();
-
+ 
   playerArcher.display();
   computerArcher.display()
 
